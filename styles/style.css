@@ -6,6 +6,13 @@
  
   font-style: normal;
 }
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 900;
+    
+
+  }
+  
 
 body{
     background-color: black;
@@ -42,4 +49,68 @@ nav{
     align-items: center;
     padding: 2px;
     border-radius: 25px;
+}
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.hero{
+    max-width: 1060px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 78px;
+
+}
+.hero-container{
+    width: 520px;
+}
+.hero-container >p{
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.hero-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid grey;
+    font-weight: 600px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.hero-img{
+  
+    position: relative;
+}
+.free{
+    width: 193px;
+    height: 98px;
+    background-color: #FFFFFF1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+   
+}
+.video{
+    width: 193px;
+    height: 98px;
+    background-color: #FFFFFF1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+   bottom: 10%;
+   right: 70%;
+    
 }
