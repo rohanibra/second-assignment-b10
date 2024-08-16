@@ -114,3 +114,19 @@ header{
    right: 70%;
     
 }
+.banner{
+    max-width: 1060px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+.runnig{
+    width: 366px;
+    height: 312px;
+    border-radius: 30px;
+}
