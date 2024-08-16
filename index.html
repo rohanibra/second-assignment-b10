@@ -11,6 +11,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 310px;
+            height: 216px;
+        }
+
+        td,
+        th {
+            border: 2px solid #FFFFFF1A;
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body style="color: white;" class="inter">
     <header>
@@ -113,6 +126,88 @@ Mile Easily
                 <img class="runnig" src="./images/run.jpg" alt="">
             </div>
         </section>
+
+        <div style="display: flex;flex-direction: column; justify-content: center;align-items: center; margin: 30px auto; max-width: 1060px;">
+            <h1 style="font-size: 48px;font-weight: 900;">
+                BMI Calculator
+            </h1>
+            <p style="opacity: 70%">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.
+            </p>
+        </div>
+        <section style="background-color: #222222;">
+            <div >
+                <!-- table -->
+                <div style="display: flex; max-width: 1060px; justify-content: space-around; align-items: center; margin: 0px auto;">
+                  <div>
+                    <h1>BMI Calculator Chart</h1>
+                    <table>
+                       
+                        <thead>
+                            
+                            <tr>
+                                <th>BMI </th>
+                                <th>Weight Status</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+
+                    <div style="width: 577px;
+                            height: 386px; ">
+                        <h1>
+                            Calculate your BMI
+                        </h1>
+                        <p style="opacity: 70%;">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                       <div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <input style="width: 282.5px;
+                                height: 48px; border-radius: 5px; background-color: #FFFFFF1A; border: none;" type="text" placeholder="Height/cm">
+                            <input  style="width: 282.5px;
+                                height: 48px; border-radius: 5px; background-color: #FFFFFF1A; border: none;" type="text" placeholder="Weight/kg">
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 20px ; margin-bottom: 20px;">
+                            <input style="width: 282.5px;
+                                height: 48px; border-radius: 5px; background-color: #FFFFFF1A; border: none;" type="text" placeholder="Age">
+                            <input  style="width: 282.5px;
+                                height: 48px; border-radius: 5px; background-color: #FFFFFF1A; border: none;" type="text" placeholder="Sex">
+                        </div>
+                        <input  style="width: 577px;
+                                height: 48px; border-radius: 5px; background-color: #FFFFFF1A; border: none;" type="text" placeholder="Select an activity factor">
+                                <button style="background-color: #E6533C; margin-top: 10px;" class="hero-btn">Calculate</button>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div style="display: flex;flex-direction: column; justify-content: center;align-items: center; margin: 30px auto; max-width: 1060px;">
+            <h1 style="font-size: 48px;font-weight: 900;">
+                Meet Our Team
+            </h1>
+            <p style="opacity: 70%">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.
+            </p>
+        </div>
     </main>
     <footer>
 
