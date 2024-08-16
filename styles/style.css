@@ -130,3 +130,10 @@ header{
     height: 312px;
     border-radius: 30px;
 }
+
+.banner-class{
+    margin-top: 90px;
+     display: flex;
+     justify-content: space-around;
+}
+
